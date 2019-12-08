@@ -1,6 +1,7 @@
-.list-of-clothes-component{
+.list-of-clothes-component {
     padding-top: 7vw;
 }
+
 .product-wrap {
     width: 250px;
     margin: 0 0 1vw 2vw;
@@ -11,15 +12,18 @@
     font-family: Lora;
     display: inline-block;
 }
+
 .product-item {
     position: relative;
     overflow: hidden;
     background: black;
 }
+
 .product-wrap img {
     display: block;
     width: 100%;
 }
+
 .product-buttons {
     position: absolute;
     left: 0;
@@ -30,6 +34,7 @@
     opacity: 0;
     transition: .3s ease-in-out;
 }
+
 .button {
     text-decoration: none;
     color: #c0a97a;
@@ -44,20 +49,34 @@
     transform: translate(-50%, -50%) scale(0);
     transition: .3s ease-in-out;
 }
+
 .button:before {
     font-family: FontAwesome;
     margin-right: 10px;
 }
-.product-item:hover .img-of-product{
+
+.product-item:hover .img-of-product {
     opacity: 0.6;
 }
-.product-item:hover .product-buttons {opacity: 1;}
-.product-item:hover .button {transform: translate(-50%, -50%) scale(1);}
+
+.product-item:hover .product-buttons {
+    opacity: 1;
+}
+
+.product-item:hover .button {
+    transform: translate(-50%, -50%) scale(1);
+}
+
 .button:hover {
     background: black;
     color: #c0a97a;
-    cursor: pointer}
-.product-title {color: #5e5e5e;}
+    cursor: pointer
+}
+
+.product-title {
+    color: #5e5e5e;
+}
+
 .product-title a {
     text-decoration: none;
     color: #2e2e2e;
@@ -68,7 +87,8 @@
     position: relative;
     transition: .3s ease-in-out;
 }
-.product-title a:after{
+
+.product-title a:after {
     position: absolute;
     width: 40px;
     height: 2px;
@@ -78,10 +98,16 @@
     bottom: 0;
     transition: .3s ease-in-out;
 }
-.product-title a:hover {color: #c0a97a;
-cursor: pointer;
+
+.product-title a:hover {
+    color: #c0a97a;
+    cursor: pointer;
 }
-.product-title:hover a:after {background: #c0a97a;}
+
+.product-title:hover a:after {
+    background: #c0a97a;
+}
+
 .product-price {
     font-size: 20px;
     color: #c0a97a;

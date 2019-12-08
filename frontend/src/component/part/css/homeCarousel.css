@@ -1,16 +1,19 @@
-
 .home-carousel-component {
     flex: auto;
 }
-#image-carousel{
+
+#image-carousel {
     width: 100%;
 }
-a, a:visited{
+
+a, a:visited {
     color: white;
 }
-h2:hover a{
+
+h2:hover a {
     text-shadow: black 0 0 10px;
 }
-h2{
+
+h2 {
     font-size: 8vw;
 }

@@ -42,6 +42,7 @@ class Main extends Component {
                 }
             ],
         };
+
         return (
             <div className="main-component">
                 <Head/>

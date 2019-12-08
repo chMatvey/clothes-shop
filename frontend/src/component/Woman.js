@@ -6,9 +6,6 @@ import Footer from "./part/Footer";
 
 class Woman extends Component{
     render(){
-        const woman = {
-
-        };
         return(
             <div>
                 <Head/>

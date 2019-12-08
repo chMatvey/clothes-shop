@@ -5,27 +5,27 @@ import {connect} from 'react-redux';
 import axios from 'axios';
 
 class ListOfClothes extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
         this.dataLoad = this.dataLoad.bind(this);
     }
-    componentDidMount(){
+
+    componentDidMount() {
         this.dataLoad();
     }
 
-    dataLoad(){
+    dataLoad() {
         axios.get('/clothes/type?name=%D0%B1%D0%BB%D1%83%D0%B7%D0%BA%D0%B8%20%D0%B8%20%D1%80%D1%83%D0%B1%D0%B0%D1%88%D0%BA%D0%B8')
             .then(res => {
                 this.props.onAddClothes(res.data);
                 console.log(res.data);
             })
     }
-    
 
     render() {
         function inBasket() {
-            
         }
+
         return (
             <div className="list-of-clothes-component">
                 <ul>
@@ -33,9 +33,9 @@ class ListOfClothes extends Component {
                         <div className="product-wrap" key={data.id}>
                             <div className="product-item">
                                 <div className="img-of-product">
-                                <img src={data.refImg}/>
+                                    <img src={data.refImg}/>
                                 </div>
-                                <div className="product-button"> <a className="button">В корзину</a></div>
+                                <div className="product-button"><a className="button">В корзину</a></div>
                             </div>
                             <div className="product-title">
                                 <Link onClick={inBasket}><h1>{data.name}</h1></Link>

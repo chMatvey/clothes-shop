@@ -48,7 +48,8 @@ class Men extends Component{
                     name: "Рубашки"
                 },
             ]
-        }
+        };
+
         return(
             <div className="men-page">
                 <Head/>

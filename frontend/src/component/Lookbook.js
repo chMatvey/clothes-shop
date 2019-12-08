@@ -4,7 +4,6 @@ import "./css/lookbook.css";
 import {Link} from 'react-router';
 import LookbookCard from "./part/LookbookCard";
 
-
 class Lookbook extends Component{
     render(){
         return(

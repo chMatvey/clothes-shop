@@ -15,7 +15,7 @@ class HeadVertical extends Component {
                     <li className="first-element">{this.props.title}</li>
                     {this.props.links.map((links) =>
                         <li>
-                            <Link to={"/"+links.link}>{links.name}</Link>
+                            <Link to={"/" + links.link}>{links.name}</Link>
                         </li>
                     )}
                 </ul>

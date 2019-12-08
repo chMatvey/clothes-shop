@@ -1,35 +1,42 @@
-.footer{
+.footer {
     position: absolute;
     width: 100%;
     background-color: #3d4043;
     color: white;
 }
-.foot-menu>li{
+
+.foot-menu > li {
     display: inline-grid;
     font-size: 17px;
     position: relative;
     padding: 1% 3% 0;
 
 }
-.foot-menu>li>ul>li{
+
+.foot-menu > li > ul > li {
     list-style: none;
 
 }
-.foot-menu>li>ul>li a {
+
+.foot-menu > li > ul > li a {
     color: darkgrey;
 }
-.foot-menu{
+
+.foot-menu {
     margin-left: -10%;
     text-align: center;
 }
-.foot-menu>li>ul>li:hover a{
+
+.foot-menu > li > ul > li:hover a {
     color: white;
     text-decoration: none;
 }
-.social{
+
+.social {
     text-align: center;
 }
-.icons>*{
+
+.icons > * {
     margin-left: 1%;
     margin-bottom: 0.7%;
 }

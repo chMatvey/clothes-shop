@@ -1,10 +1,10 @@
-.carousel-wrapper{
+.carousel-wrapper {
 }
 
-.carousel-item{
+.carousel-item {
 }
 
-.carousel-img-wrapper{
+.carousel-img-wrapper {
     height: 413px;
     width: 552px;
     background: url("https://s1.1zoom.ru/b5050/709/293555-alexfas01_1440x900.jpg") center no-repeat;
@@ -12,7 +12,7 @@
     justify-content: space-between;
 }
 
-.carousel-arrow-left{
+.carousel-arrow-left {
     background: url("//staticpages.mngbcn.com/homes/images/fw18/she/julio/she_09_2017_campaign_arrow-left.svg?imwidth=1366&imdensity=1") center no-repeat;
     height: 100%;
     width: 17px;
@@ -20,7 +20,7 @@
     flex: 0 0 auto;
 }
 
-.carousel-arrow-right{
+.carousel-arrow-right {
     background: url("http://staticpages.mngbcn.com/homes/images/fw18/she/julio/she_09_2017_campaign_arrow-right.svg?imwidth=1366&imdensity=1") center no-repeat;
     height: 100%;
     width: 17px;

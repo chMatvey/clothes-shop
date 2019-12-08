@@ -1,8 +1,9 @@
-.main-cards-component{
+.main-cards-component {
     flex: 0;
     position: relative;
     width: 100%;
 }
+
 @media (min-width: 1039px) {
 
     .main-cards-component > * {
@@ -13,14 +14,16 @@
         width: 47vw;
         padding: 1vw;
     }
-    #imgCard:hover{
+
+    #imgCard:hover {
         opacity: 0.6;
     }
-    .title-for-card{
+
+    .title-for-card {
         display: none;
         position: absolute;
         color: black;
-        top	: 17vw;
+        top: 17vw;
         left: 12vw;
         font-size: 1.8vw;
         font-family: "Yu Gothic UI Semilight";
@@ -29,8 +32,9 @@
     }
 
 }
+
 @media (max-width: 1038px) {
-    #imgCard{
+    #imgCard {
         padding: 1vw 0 1vw 2vw;
         width: 97vw;
     }

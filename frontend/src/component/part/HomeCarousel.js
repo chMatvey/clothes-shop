@@ -8,6 +8,7 @@ class HomeCarousel extends Component {
     constructor(props) {
         super(props);
     }
+
     render() {
         return (
             <div className="home-carousel-component">
@@ -16,7 +17,7 @@ class HomeCarousel extends Component {
                         <Carousel.Item>
                             <Link to={picture.url}><img id="image-carousel" src={picture.src}/></Link>
                             <Carousel.Caption>
-                                <div >
+                                <div>
                                     <h2><Link to={picture.url}>{picture.title}</Link></h2>
                                     <h4>{picture.label}</h4>
                                 </div>
